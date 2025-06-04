@@ -26,3 +26,5 @@ function romanNumerals(number){
 
     return numberConvertedToRoman;
 }
+
+module.exports = romanNumerals;

@@ -8,3 +8,5 @@ function fibonacci(number){
     }
     return sequenceArray[number]
 }
+
+module.exports = fibonacci;

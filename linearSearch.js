@@ -10,3 +10,5 @@ function globalLinearSearch(item, array){
     }
     return indexListForItem
 }
+
+module.exports = globalLinearSearch;

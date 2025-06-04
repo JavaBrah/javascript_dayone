@@ -1,0 +1,22 @@
+{
+  "name": "javascript_dayone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "factorial.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavaBrah/javascript_dayone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JavaBrah/javascript_dayone/issues"
+  },
+  "homepage": "https://github.com/JavaBrah/javascript_dayone#readme",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
