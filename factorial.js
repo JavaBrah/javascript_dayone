@@ -6,3 +6,5 @@ function factorial(num){
     }
     return fact
 }
+
+module.exports = factorial;

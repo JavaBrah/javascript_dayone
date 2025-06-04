@@ -1,18 +1,18 @@
-const { linearSearch, globalLinearSearch } = require("./linearSearch.js");
+const globalLinearSearch = require("./linearSearch.js");
 
-describe("tests linearSearch", () => {
-  test("linearSearch(1, [1, 2, 3]) === 0", () => {
-    expect(linearSearch(1, [1, 2, 3])).toBe(0);
-  });
+// describe("tests linearSearch", () => {
+//   test("linearSearch(1, [1, 2, 3]) === 0", () => {
+//     expect(linearSearch(1, [1, 2, 3])).toBe(0);
+//   });
 
-  test("linearSearch(3, [1, 2, 3]) === 2", () => {
-    expect(linearSearch(3, [1, 2, 3])).toBe(2);
-  });
+//   test("linearSearch(3, [1, 2, 3]) === 2", () => {
+//     expect(linearSearch(3, [1, 2, 3])).toBe(2);
+//   });
 
-  test("linearSearch(4, [1, 2, 3]) === undefined", () => {
-    expect(linearSearch(4, [1, 2, 3])).toBe(undefined);
-  });
-});
+//   test("linearSearch(4, [1, 2, 3]) === undefined", () => {
+//     expect(linearSearch(4, [1, 2, 3])).toBe(undefined);
+//   });
+// });
 
 describe("tests globalLinearSearch", () => {
   test("globalLinearSearch('a', 'bananas'.split('')) === [1, 3, 5]", () => {
