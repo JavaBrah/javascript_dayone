@@ -1,6 +1,6 @@
 const fibonacci = require("./fibonacci");
 
-describe("test fibonacci", () => {
+
   test("fibonacci(0) === 0", () => {
     expect(fibonacci(0)).toBe(0);
   });
@@ -20,4 +20,3 @@ describe("test fibonacci", () => {
   test("fibonacci(11) === 89", () => {
     expect(fibonacci(11)).toBe(89);
   });
-});

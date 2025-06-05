@@ -20,11 +20,3 @@ describe("tests", () => {
     })
 })
 
-
-// console.log(romanNumerals(4) === "IIII");
-// console.log(romanNumerals(150) === "CL");
-// console.log(romanNumerals(944) === "DCCCCXXXXIIII");
-
-// console.log(romanNumerals(4) === "IV");
-// console.log(romanNumerals(150) === "CL");
-// console.log(romanNumerals(944) === "CMXLIV");

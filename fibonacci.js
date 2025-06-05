@@ -1,4 +1,4 @@
-function fibonacci(number){
+const fibonacci = (number) => {
     let sequenceArray = [0, 1]
     
     for (let i = 2; i <= number; i++){

@@ -1,4 +1,4 @@
-function factorial(num){
+const factorial = (num) => {
     fact = 1
     while (num > 0){
         fact = fact * num

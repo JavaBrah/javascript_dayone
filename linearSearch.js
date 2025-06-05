@@ -1,4 +1,4 @@
-function globalLinearSearch(item, array){
+const globalLinearSearch = (item, array) => {
     
     let indexListForItem = [];
   

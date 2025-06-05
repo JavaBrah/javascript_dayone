@@ -1,7 +1,7 @@
 const factorial = require("./factorial.js");
 
 
-//describe("tests", () => {
+
     test("test factorial of 0", () => {
         expect(factorial(0)).toBe(1);
     })
@@ -20,6 +20,6 @@ const factorial = require("./factorial.js");
     test("test for the factorial of 18", () => {
         expect(factorial(18)).toBe(6402373705728000)
     })
-//})
+
 
 

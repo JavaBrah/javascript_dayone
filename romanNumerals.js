@@ -1,4 +1,4 @@
-function romanNumerals(number){
+const romanNumerals = (number) => {
     const romanNumeralConversion = {
         1000: 'M',
         900: 'CM',
@@ -28,3 +28,5 @@ function romanNumerals(number){
 }
 
 module.exports = romanNumerals;
+
+
