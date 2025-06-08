@@ -16,7 +16,7 @@
     "url": "https://github.com/JavaBrah/javascript_dayone/issues"
   },
   "homepage": "https://github.com/JavaBrah/javascript_dayone#readme",
-  "dependencies": {
+  "devDependencies": {
     "jest": "^29.7.0"
   }
 }
